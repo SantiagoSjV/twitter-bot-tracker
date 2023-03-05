@@ -12,8 +12,4 @@ config = {
     "databaseURL": ""
   }
 
-firebase = pyrebase.initialize_app(config)
-media_storage = firebase.storage().child("file_name.png")
-# media_storage.put("left_behind.png")
-media_url = media_storage.get_url(None)
-print(media_url)
+connection = pyrebase.initialize_app(config)
