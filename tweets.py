@@ -1,6 +1,6 @@
 import snscrape.modules.twitter as sntwitter
 
-query = "loteria"
+query = "hola"
 currentId = 0
 
 while 1:
