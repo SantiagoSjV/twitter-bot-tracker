@@ -1,4 +1,4 @@
-QUERY: str = "disponible tlalpan"
+QUERY: str = "#cdmx"
 TABLE_MEDIA: str = "media"
 MEDIA_URL: str = "mediaUrl"
 MP4: str = "video/mp4"

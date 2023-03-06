@@ -1,5 +1,8 @@
 # Folders
-media/
+env
+media
+src/fb.py
+serviceAccount.json
 
 # Logs
 logs
