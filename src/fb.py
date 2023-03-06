@@ -1,15 +1,16 @@
 import pyrebase
 
 config = {
-    "projectId": "twitter-scrt-tracker",
-    "appId": "1:494820846559:web:1ea1b3f041c088eae8b26a",
-    "storageBucket": "twitter-scrt-tracker.appspot.com",
-    "locationId": "us-central",
-    "apiKey": "AIzaSyCW5jfc9QZJtCqM2PrK57YDKXwghGQyFis",
-    "authDomain": "twitter-scrt-tracker.firebaseapp.com",
-    "messagingSenderId": "494820846559",
+    "projectId": "twitter-media-tracker",
+    "appId": "1:254806048411:web:fe6750e8ed5bfdeb07903e",
+    "databaseURL": "https://twitter-media-tracker-default-rtdb.firebaseio.com",
+    "storageBucket": "twitter-media-tracker.appspot.com",
+    "apiKey": "AIzaSyCoK5AVMvTiGc9Aae3LLxlHYmUh1pxRmMw",
+    "authDomain": "twitter-media-tracker.firebaseapp.com",
+    "messagingSenderId": "254806048411",
     "serviceAccount": "./serviceAccount.json",
-    "databaseURL": ""
+    "databaseURL": "https://twitter-media-tracker-default-rtdb.firebaseio.com/"
   }
 
-connection = pyrebase.initialize_app(config)
+app = pyrebase.initialize_app(config)
+db = app.database()
